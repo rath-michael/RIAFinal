@@ -1,0 +1,17 @@
+﻿<div>
+    <h1>{{pageHeading}}</h1>
+</div>
+<div class="container" ng-controller="randomController">
+    <div class="row">
+        <div class="col">
+            <input type="button" value="Load Another" class="btn-block clickMe" ng-click="callAPI()" />
+        </div>
+        <div class="col-md-8">
+            <div class="jokeDisplay">{{randJoke}}</div>
+        </div>
+        <div class="col">
+            <input type="button" value="Load Another" class="btn-block clickMe" ng-click="callAPI()" />
+        </div>
+    </div>
+    <p ng-show="categoryList.length == 0">loading new joke...</p>
+</div>
