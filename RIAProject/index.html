@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html ng-app="demo">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rich Internet Applications Final Project</title>
+
+    <!-- Add Angular Scripts -->
+    <script src="Scripts/angular.min.js"></script>
+    <script src="app/app.js"></script>
+    <!-- Add Controllers -->
+    <script src="app/controllers//randomController.js"></script>
+    <script src="app/controllers//categoriesController.js"></script>
+    <script src="app/controllers//rootController.js"></script>
+    <!-- Add Remaining Scripts -->
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+<body ng-controller="rootController">
+    <div class="container">
+        <div class="row">
+            <div class="col"><img src="images/logo.png" /></div>
+        </div>
+        <div class="row">
+            <div class="col"><p><a href="#!" class="link">Home</a></p></div>
+            <div class="col"><p><a href="#!viewCategories" class="link">View Categories</a></p></div>
+        </div>
+    </div>
+    <div class="view-container">
+        <div id="page-main" ng-view></div>
+    </div>
+    <footer class="fixed-bottom">Rich Internet Applications Final Project</footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿<div>
+    <h1>
+        {{pageHeading}}
+    </h1>
+</div>
+<div class="container" ng-controller="categoriesController">
+    <div class="list-categories row">
+        <ul class="categories-thumb-list clearfix">
+            <li class="category-item fade-anim" style="text-align:center; margin: 7px;" ng-repeat="category in categoryList">
+                <p>{{category}}</p>
+            </li>
+        </ul>
+        <div class="row">
+            <p ng-show="categoryList.length == 0" style="color: white;">loading categories...</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RIAProject", "RIAProject\RIAProject.csproj", "{9D8F33BC-9F28-43D2-904D-8CB4D8D9C058}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D8F33BC-9F28-43D2-904D-8CB4D8D9C058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8F33BC-9F28-43D2-904D-8CB4D8D9C058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8F33BC-9F28-43D2-904D-8CB4D8D9C058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8F33BC-9F28-43D2-904D-8CB4D8D9C058}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA70FBE9-05E9-4305-B5E6-F0FA1D3C91BD}
+	EndGlobalSection
+EndGlobal
